@@ -1,0 +1,97 @@
+/* Desktop View Port */
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+/* --NavBar-- */
+
+.fa-file-alt:before {
+    content: "\f15c";
+    font-size: 3rem;
+    padding-left: 50%;
+}
+
+a.nav-link {
+    margin-left: 12rem;
+    font-size: 1.7rem;
+    color: #EEEADE !important;
+    opacity: 0.5;
+}
+
+a.nav-link:hover {
+    opacity: 1;
+}
+
+
+/* a:hover {
+    color: #FFFFFF !important;
+} */
+
+.navbar-brand {
+    opacity: 0.75 !important;
+}
+
+.navbar-brand :hover {
+    opacity: 1 !important;
+    color: #FFFFFF !important;
+}
+
+
+/* --End of NavBar-- */
+
+
+/* --Home Page-- */
+
+.mainHeading {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    margin-top: 15%;
+    margin-left: 2rem;
+}
+
+.notes {
+    color: #FFFFFF;
+    background-color: #171717;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.notes:hover {
+    background-color: #000000;
+}
+
+img.HomeImage {
+    background-color: #FFFFFF;
+    background-image: none !important;
+}
+
+
+/* --End Of Home Page --*/
+
+
+/* .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 5rem;
+    padding-left: 15rem;
+} */
+
+
+/* --Mobile View Port -- */
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    a.nav-link {
+        margin-left: 8rem;
+        padding: 7%;
+        font-size: 3rem;
+        opacity: 0.5;
+    }
+    a.nav-link:hover {
+        opacity: 1;
+    }
+    .navbar-nav {
+        padding-bottom: 13rem;
+        background-image: url("images/book_doodle.png");
+        background-color: #171717;
+    }
+}
