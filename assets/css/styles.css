@@ -161,6 +161,30 @@ img.HomeImage {
 /* --End of Notes Section-- */
 
 
+/* --Footer Section-- */
+
+.footer {
+    padding: 2%;
+}
+
+.copyRight {
+    margin-top: 1%;
+    text-align: center;
+}
+
+.socialIcons1 {
+    text-align: center;
+    margin-left: 35%;
+}
+
+.socialIcons {
+    margin-left: 5%;
+}
+
+
+/* --End of Footer Section-- */
+
+
 /* --Mobile View Port -- */
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
