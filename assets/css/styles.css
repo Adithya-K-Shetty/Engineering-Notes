@@ -2,6 +2,7 @@
 
 body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
@@ -46,40 +47,124 @@ a.nav-link:hover {
 
 .mainHeading {
     font-family: 'Rubik', sans-serif;
-    font-size: 4rem;
-    margin-top: 15%;
+    font-size: 5rem;
+    margin-top: 30%;
     margin-left: 2rem;
+    color: #171717;
+    white-space: nowrap;
+}
+
+.mainHeading:hover {
+    color: #000000;
+}
+
+.HomeContainer {
+    padding-bottom: 13%;
 }
 
 .notes {
-    color: #FFFFFF;
-    background-color: #171717;
+    color: #000000;
+    background-color: #808080;
     border: 1px solid #000000;
     border-radius: 10px;
 }
 
 .notes:hover {
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 img.HomeImage {
-    background-color: #FFFFFF;
-    background-image: none !important;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 
 /* --End Of Home Page --*/
 
 
-/* .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 5rem;
-    padding-left: 15rem;
-} */
+/* --Scroll Bar-- */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+    background-clip: content-box;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #171717;
+    border-radius: 5px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #171717;
+}
+
+
+/* --End Of Scroll Bar-- */
+
+
+/* --Notes Section-- */
+
+.notesCards {
+    text-align: center;
+    background-color: #171717;
+}
+
+.card {
+    background-color: #808080;
+    margin: 3%;
+    border: 1px solid #000000 !important;
+    border-radius: 25px;
+}
+
+.card-title {
+    padding: 3%;
+    color: #FFFFFF;
+    border-bottom: 3px solid #000000 !important;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.notesBtn1 .btn {
+    padding: 3% 8%;
+    margin: 3%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.notesBtn2 .btn {
+    padding: 3% 6%;
+    margin: 3%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+/* --End of Notes Section-- */
 
 
 /* --Mobile View Port -- */
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+    /* --NavBar-- */
     a.nav-link {
         margin-left: 8rem;
         padding: 7%;
@@ -93,5 +178,19 @@ img.HomeImage {
         padding-bottom: 13rem;
         background-image: url("images/book_doodle.png");
         background-color: #171717;
+        width: 103%;
     }
+    /* --End Of NavBar-- */
+    /* --Home Page-- */
+    .mainHeading {
+        font-size: 4rem;
+        text-align: center;
+        white-space: normal;
+    }
+    img.HomeImage {
+        margin-top: 2%;
+    }
+    /* --End Of Home Page-- */
+    /* --Notes Section-- */
+    /* --End Of Notes Section-- */
 }
