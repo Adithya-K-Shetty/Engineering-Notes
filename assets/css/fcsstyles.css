@@ -1,0 +1,57 @@
+body {
+    background-color: #414A4C;
+}
+
+
+/* --Heading Section-- */
+
+.mainHeading1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    margin-top: 3%;
+    text-align: center;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.mainHeading2 {
+    background-color: #808080;
+    border-radius: 10px;
+}
+
+.mainHeading2:hover {
+    background-color: #000000;
+}
+
+.subHeading {
+    text-align: center;
+    color: #ffffff
+}
+
+
+/* --End Of Heading Section-- */
+
+
+/* --Notes Section-- */
+
+.notes {
+    padding-top: 5%;
+}
+
+.card {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.notesBtn .btn {
+    padding: 3% 10%;
+    margin: 3%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* --End Of Notes Section-- */

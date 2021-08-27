@@ -8,6 +8,12 @@ body {
 
 /* --NavBar-- */
 
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 .fa-file-alt:before {
     content: "\f15c";
     font-size: 3rem;
@@ -155,6 +161,12 @@ img.HomeImage {
     margin: 3%;
     border-radius: 20px;
     font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+span.notesHead {
+    background-color: #414A4C;
+    border-radius: 10px;
 }
 
 
@@ -170,15 +182,26 @@ img.HomeImage {
 .copyRight {
     margin-top: 1%;
     text-align: center;
+    font-size: 18px;
 }
 
 .socialIcons1 {
     text-align: center;
     margin-left: 35%;
+    color: #414A4C;
+}
+
+.socialIcons1:hover {
+    color: #000000;
 }
 
 .socialIcons {
     margin-left: 5%;
+    color: #414A4C;
+}
+
+.socialIcons:hover {
+    color: #000000;
 }
 
 
@@ -217,4 +240,16 @@ img.HomeImage {
     /* --End Of Home Page-- */
     /* --Notes Section-- */
     /* --End Of Notes Section-- */
+    /* --conatact section-- */
+    .copyRight {
+        font-size: 16px;
+    }
+    .socialIcons1 {
+        text-align: center;
+        margin-left: 23%;
+    }
+    .socialIcons {
+        margin-left: 5%;
+    }
+    /* --end of contact-- */
 }
