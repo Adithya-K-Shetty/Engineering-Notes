@@ -25,10 +25,17 @@ a.nav-link {
     font-size: 1.7rem;
     color: #EEEADE !important;
     opacity: 0.5;
+    /* border-bottom: 3px solid #ffffff; */
+    /* border-bottom-width: 0; */
+    /* transition-property: translate();
+    transition-duration: 10s; */
+    /* transition-delay: 2s; */
 }
 
 a.nav-link:hover {
     opacity: 1;
+    /* transform: translate(0, -50px);
+    transition-timing-function: ease; */
 }
 
 
@@ -92,6 +99,8 @@ img.HomeImage {
     border: 2px solid #000000;
     padding: 1%;
     border-radius: 10px;
+    transition-property: translate();
+    transition-duration: 0.5s;
 }
 
 .sIcon1 .fa-twitter:hover {
@@ -100,6 +109,8 @@ img.HomeImage {
     top: 50px;
     background-color: #171717;
     color: #ffffff !important;
+    transform: translate(-50px, 0);
+    transition-timing-function: linear;
 }
 
 .sIcon2 .fa-github {
@@ -109,6 +120,8 @@ img.HomeImage {
     border: 2px solid #000000;
     padding: 1%;
     border-radius: 10px;
+    transition-property: translate();
+    transition-duration: 0.5s;
 }
 
 .sIcon2 .fa-github:hover {
@@ -117,6 +130,8 @@ img.HomeImage {
     top: 150px;
     background-color: #171717;
     color: #ffffff !important;
+    transform: translate(50px, 0);
+    transition-timing-function: linear;
 }
 
 .sIcon3 .fa-instagram {
@@ -126,6 +141,8 @@ img.HomeImage {
     border: 2px solid #000000;
     padding: 1%;
     border-radius: 10px;
+    transition-property: translate();
+    transition-duration: 0.5s;
 }
 
 .sIcon3 .fa-instagram:hover {
@@ -134,15 +151,18 @@ img.HomeImage {
     left: 65px;
     background-color: #171717;
     color: #ffffff !important;
+    transform: translate(-50px, 0);
+    transition-timing-function: linear;
 }
 
 .sIcon4 .fa-linkedin-in {
     position: relative;
     top: 350px;
-    left: 4px;
     border: 2px solid #000000;
     padding: 1%;
     border-radius: 10px;
+    transition-property: translate();
+    transition-duration: 0.5s;
 }
 
 .sIcon4 .fa-linkedin-in:hover {
@@ -151,6 +171,8 @@ img.HomeImage {
     left: 4px;
     background-color: #171717;
     color: #ffffff !important;
+    transform: translate(50px, 0);
+    transition-timing-function: linear;
 }
 
 
@@ -304,6 +326,18 @@ span.notesHead {
     }
     img.HomeImage {
         margin-top: 2%;
+    }
+    .sIcon1 .fa-twitter {
+        visibility: hidden;
+    }
+    .sIcon2 .fa-github {
+        visibility: hidden;
+    }
+    .sIcon3 .fa-instagram {
+        visibility: hidden;
+    }
+    .sIcon4 .fa-linkedin-in {
+        visibility: hidden;
     }
     /* --End Of Home Page-- */
     /* --Notes Section-- */
