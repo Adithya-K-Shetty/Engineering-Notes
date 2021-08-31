@@ -54,7 +54,7 @@ a.nav-link:hover {
 .mainHeading {
     font-family: 'Rubik', sans-serif;
     font-size: 5rem;
-    margin-top: 30%;
+    margin-top: 40%;
     margin-left: 2rem;
     color: #171717;
     white-space: nowrap;
@@ -65,7 +65,7 @@ a.nav-link:hover {
 }
 
 .HomeContainer {
-    padding-bottom: 13%;
+    padding-bottom: 18%;
 }
 
 .notes {
@@ -81,8 +81,76 @@ a.nav-link:hover {
 }
 
 img.HomeImage {
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: 10%;
+}
+
+.sIcon1 .fa-twitter {
+    position: relative;
+    left: 200px;
+    top: 50px;
+    border: 2px solid #000000;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.sIcon1 .fa-twitter:hover {
+    position: relative;
+    left: 200px;
+    top: 50px;
+    background-color: #171717;
+    color: #ffffff !important;
+}
+
+.sIcon2 .fa-github {
+    position: relative;
+    left: 130px;
+    top: 150px;
+    border: 2px solid #000000;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.sIcon2 .fa-github:hover {
+    position: relative;
+    left: 130px;
+    top: 150px;
+    background-color: #171717;
+    color: #ffffff !important;
+}
+
+.sIcon3 .fa-instagram {
+    position: relative;
+    top: 250px;
+    left: 65px;
+    border: 2px solid #000000;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.sIcon3 .fa-instagram:hover {
+    position: relative;
+    top: 250px;
+    left: 65px;
+    background-color: #171717;
+    color: #ffffff !important;
+}
+
+.sIcon4 .fa-linkedin-in {
+    position: relative;
+    top: 350px;
+    left: 4px;
+    border: 2px solid #000000;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.sIcon4 .fa-linkedin-in:hover {
+    position: relative;
+    top: 350px;
+    left: 4px;
+    background-color: #171717;
+    color: #ffffff !important;
 }
 
 
