@@ -65,10 +65,12 @@ a.nav-link:hover {
     margin-left: 2rem;
     color: #171717;
     white-space: nowrap;
+    transition: transform 1s;
 }
 
 .mainHeading:hover {
     color: #000000;
+    transform: rotate(360deg);
 }
 
 .HomeContainer {
