@@ -262,6 +262,28 @@ span.notesHead {
 }
 
 
+/** btn test **/
+
+a.btn.btn-outline-dark {
+    transition: transform 1s;
+}
+
+a.btn.btn-outline-dark:hover {
+    transform: scale(1.2);
+}
+
+a.btn.btn-outline-light {
+    transition: transform 1s;
+}
+
+a.btn.btn-outline-light:hover {
+    transform: scale(1.2);
+}
+
+
+/** end of btn test **/
+
+
 /* --End of Notes Section-- */
 
 
