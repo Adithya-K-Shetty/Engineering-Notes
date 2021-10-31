@@ -66,7 +66,7 @@
     <section id="Notes" class="notesCards">
         <div class="row">
             <div class="col-lg-6">
-                <div class="card">
+                <div class="card card1">
                     <div class="card-body">
                         <h5 class="card-title"><span class="notesHead">Com</span>puter Science</h5>
                         <span class="notesBtn1"><a href="https://drive.google.com/file/d/1Gb-s4rfjqyVRkNPW2m3ynPQFlOzDE_ia/view?usp=sharing" class="btn btn-outline-dark" target=”_blank”>First Semester</a> <br></span>
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="card">
+                <div class="card card2">
                     <div class="card-body">
                         <h5 class="card-title"><span class="notesHead">Electron</span>ics And Communication </h5>
                         <span class="notesBtn1"><a href="#" class="btn btn-outline-light">First Semester</a> <br></span>
@@ -98,6 +98,14 @@
         <i class="socialIcons fab fa-instagram fa-3x"></i>
         <i class="socialIcons fab fa-linkedin-in fa-3x"></i>
         <p class="copyRight">&#169 Copyright 2021 Engineering Notes. All rights reserved</p>
+
+        <!-- Icons Test-->
+        <!-- <a href="#" class="icon"> <i class="socialIcons fab fa-twitter "></i></a>
+        <a href="#" class="icon"> <i class="socialIcons fab fa-github "></i></a>
+        <a href="#" class="icon"> <i class="socialIcons fab fa-instagram "></i></a>
+        <a href="#" class="icon"> <i class="socialIcons fab fa-linkedin-in "></i></a>
+        <p class="copyRight">&#169 Copyright 2021 Engineering Notes. All rights reserved</p> -->
+        <!-- End of Ions Test-->
     </section>
 
 
@@ -105,6 +113,23 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "783854b4-f9f7-4f66-a4fd-45c0888c6b04", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "5711a8dc-b51f-4e64-af09-4a7faca1941f", // The ID of your service instance.
+            onLoad: function(instance) {
+                instance.render();
+            }
+        };
+        setTimeout(function() {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+                (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+                "/WatsonAssistantChatEntry.js"
+            document.head.appendChild(t);
+        });
+    </script>
 </body>
 
 </html>
