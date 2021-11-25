@@ -1,5 +1,6 @@
 body {
-    background-color: #414A4C;
+    /* background-color: #414A4C; */
+    background-color: #171717;
 }
 
 
@@ -15,12 +16,13 @@ body {
 }
 
 .mainHeading2 {
-    background-color: #808080;
+    /* background-color: #808080; */
+    background-color: #4449a3;
     border-radius: 10px;
 }
 
 .mainHeading2:hover {
-    background-color: #000000;
+    background-color: #2c32d1;
 }
 
 .subHeading {
@@ -42,7 +44,8 @@ body {
     border: 1px solid #000000;
     text-align: center;
     padding: 2%;
-    border-radius: 10px;
+    border-radius: 30px;
+    background-color: #4449a3;
 }
 
 .notesBtn .btn {
@@ -54,7 +57,8 @@ body {
 }
 
 .moduleNames {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 
 hr.moduleUnderline {

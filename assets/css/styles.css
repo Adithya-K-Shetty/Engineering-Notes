@@ -23,9 +23,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 
 a.nav-link {
     margin-left: 12rem;
-    font-size: 1.7rem;
-    color: #EEEADE !important;
+    font-size: 2rem;
+    color: #4449a3 !important;
     opacity: 0.5;
+    font-family: 'Ubuntu', sans-serif;
     /* border-bottom: 3px solid #ffffff; */
     /* border-bottom-width: 0; */
     /* transition-property: translate();
@@ -64,30 +65,36 @@ a.nav-link:hover {
     font-size: 5rem;
     margin-top: 40%;
     margin-left: 2rem;
-    color: #171717;
+    /* color: #171717; */
+    /*change-1*/
+    color: #4449a3;
     white-space: nowrap;
     transition: transform 1s;
 }
 
 .mainHeading:hover {
-    color: #000000;
+    /* color: #000000; */
+    /*change-2*/
+    color: #2c32d1;
     transform: rotate(360deg);
 }
 
 .HomeContainer {
     padding-bottom: 18%;
+    /* change-3 */
+    background-color: #171717;
 }
 
 .notes {
-    color: #000000;
-    background-color: #808080;
-    border: 1px solid #000000;
+    color: #FFFFFF;
+    background-color: #4449a3;
+    border: 1px solid #FFFFFF;
     border-radius: 10px;
 }
 
 .notes:hover {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #1F1F1F;
+    color: #4449a3;
 }
 
 img.HomeImage {
@@ -99,7 +106,7 @@ img.HomeImage {
     position: relative;
     left: 200px;
     top: 50px;
-    border: 2px solid #000000;
+    border: 2px solid #2c32d1;
     padding: 1%;
     border-radius: 10px;
     transition-property: translate();
@@ -111,7 +118,7 @@ img.HomeImage {
     left: 200px;
     top: 50px;
     background-color: #171717;
-    color: #ffffff !important;
+    color: #4449a3 !important;
     transform: translate(-50px, 0);
     transition-timing-function: linear;
 }
@@ -120,7 +127,7 @@ img.HomeImage {
     position: relative;
     left: 130px;
     top: 150px;
-    border: 2px solid #000000;
+    border: 2px solid #2c32d1;
     padding: 1%;
     border-radius: 10px;
     transition-property: translate();
@@ -132,7 +139,7 @@ img.HomeImage {
     left: 130px;
     top: 150px;
     background-color: #171717;
-    color: #ffffff !important;
+    color: #4449a3 !important;
     transform: translate(50px, 0);
     transition-timing-function: linear;
 }
@@ -141,7 +148,7 @@ img.HomeImage {
     position: relative;
     top: 250px;
     left: 65px;
-    border: 2px solid #000000;
+    border: 2px solid #2c32d1;
     padding: 1%;
     border-radius: 10px;
     transition-property: translate();
@@ -153,7 +160,7 @@ img.HomeImage {
     top: 250px;
     left: 65px;
     background-color: #171717;
-    color: #ffffff !important;
+    color: #4449a3 !important;
     transform: translate(-50px, 0);
     transition-timing-function: linear;
 }
@@ -161,7 +168,7 @@ img.HomeImage {
 .sIcon4 .fa-linkedin-in {
     position: relative;
     top: 350px;
-    border: 2px solid #000000;
+    border: 2px solid #2c32d1;
     padding: 1%;
     border-radius: 10px;
     transition-property: translate();
@@ -173,7 +180,7 @@ img.HomeImage {
     top: 350px;
     left: 4px;
     background-color: #171717;
-    color: #ffffff !important;
+    color: #4449a3 !important;
     transform: translate(50px, 0);
     transition-timing-function: linear;
 }
@@ -223,11 +230,15 @@ img.HomeImage {
 
 .notesCards {
     text-align: center;
-    background-color: #171717;
+    /* background-color: #171717; */
+    /*change-4*/
+    background-color: #2c32d1;
 }
 
 .card {
-    background-color: #808080;
+    /* background-color: #808080; */
+    /*change-5*/
+    background-color: #171717;
     margin: 3%;
     border: 1px solid #000000 !important;
     border-radius: 25px;
@@ -283,6 +294,8 @@ span.notesHead {
 
 a.btn.btn-outline-dark {
     transition: transform 1s;
+    border: 1px solid #4449a3;
+    color: #4449a3;
 }
 
 a.btn.btn-outline-dark:hover {
@@ -295,6 +308,7 @@ a.btn.btn-outline-light {
 
 a.btn.btn-outline-light:hover {
     transform: scale(1.2);
+    background-color: #4449a3;
 }
 
 
@@ -308,12 +322,14 @@ a.btn.btn-outline-light:hover {
 
 .footer {
     padding: 2%;
+    background-color: #171717;
 }
 
 .copyRight {
     margin-top: 1%;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
+    color: #ffffff;
 }
 
 .socialIcons1 {
@@ -323,7 +339,7 @@ a.btn.btn-outline-light:hover {
 }
 
 .socialIcons1:hover {
-    color: #000000;
+    color: #2c32d1;
 }
 
 .socialIcons {
@@ -332,7 +348,7 @@ a.btn.btn-outline-light:hover {
 }
 
 .socialIcons:hover {
-    color: #000000;
+    color: #2c32d1;
 }
 
 
@@ -402,7 +418,7 @@ a.btn.btn-outline-light:hover {
     }
     .navbar-nav {
         padding-bottom: 13rem;
-        background-image: url("images/book_doodle.png");
+        /* background-image: url("images/book_doodle.png"); */
         background-color: #171717;
         width: 103%;
     }
