@@ -408,9 +408,9 @@ a.btn.btn-outline-light:hover {
 @media only screen and (min-width: 200px) and (max-width: 767px) {
     /* --NavBar-- */
     a.nav-link {
-        margin-left: 8rem;
+        margin-left: 7rem;
         padding: 7%;
-        font-size: 3rem;
+        font-size: 2.5rem;
         opacity: 0.5;
     }
     a.nav-link:hover {
@@ -425,7 +425,7 @@ a.btn.btn-outline-light:hover {
     /* --End Of NavBar-- */
     /* --Home Page-- */
     .mainHeading {
-        font-size: 4rem;
+        font-size: 3.5rem;
         text-align: center;
         white-space: normal;
     }
@@ -449,7 +449,7 @@ a.btn.btn-outline-light:hover {
     /* --End Of Notes Section-- */
     /* --conatact section-- */
     .copyRight {
-        font-size: 16px;
+        font-size: 12px;
     }
     .socialIcons1 {
         text-align: center;
